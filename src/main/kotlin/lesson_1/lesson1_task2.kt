@@ -1,6 +1,12 @@
-package ru.netinf.izgorki.eldes.engine.lesson_1
-
 fun main() {
-    println("Тестовое решение к уроку 1 задаче 2")
-    println("Какие-то доработки")
+    val orderCount = 0
+    val thanksForPurchase = "Thank you for your purchase"
+    var employeesCount = 2000
+
+    println("Order count: $orderCount")
+    println(thanksForPurchase)
+
+    //println("Count of store's employees: ${employeesCount}")
+    employeesCount--
+    println("Count of store's employees: $employeesCount")
 }
