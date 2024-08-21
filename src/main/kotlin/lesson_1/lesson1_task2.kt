@@ -1,5 +1,5 @@
 fun main() {
-    val orderCount = 0
+    val orderCount = 75
     val thanksForPurchase = "Thank you for your purchase"
     var employeesCount = 2000
 
