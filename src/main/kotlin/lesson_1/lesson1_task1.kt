@@ -1,6 +1,6 @@
 package lesson_1
 
 fun main() {
-    var orderCount = 0
-    var thanksForPurchase = "Thank you for your purchase"
+    val orderCount = 75
+    val thanksForPurchase = "Thank you for your purchase"
 }
