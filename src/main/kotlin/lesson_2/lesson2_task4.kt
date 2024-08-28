@@ -1,12 +1,12 @@
 package lesson_2
 
 fun main() {
-    val buffInPercentage = .2
+    var buffInPercentage = 20.0
     val crystalOre = 7
     val ironOre = 11
 
-    val bonusCrystalOre = (crystalOre * buffInPercentage).toInt()
-    val bonusIronOre = (ironOre * buffInPercentage).toInt()
+    val bonusCrystalOre = (crystalOre * (buffInPercentage / 100)).toInt()
+    val bonusIronOre = (ironOre * (buffInPercentage / 100)).toInt()
 
     println("Бонусная кристаллическая руда: $bonusCrystalOre")
     println("Бонусная железная руда: $bonusIronOre")
